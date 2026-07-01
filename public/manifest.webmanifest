@@ -1,0 +1,14 @@
+{
+  "name": "Arsen — Portfolio",
+  "short_name": "Arsen",
+  "description": "Portfolio of Arsen Pradana — designer & developer.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#15110d",
+  "theme_color": "#15110d",
+  "icons": [
+    { "src": "/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ]
+}
