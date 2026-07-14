@@ -4,7 +4,7 @@ import { createFileRoute } from "@tanstack/react-router";
 import portrait from "@/assets/portrait.jpg";
 import project1 from "@/assets/Ponkesdes/Mockup.png";
 import project2 from "@/assets/GoBulking/Mockup.png";
-import project3 from "@/assets/EchoPoint/Msockup.png";
+import project3 from "@/assets/EchoPoint/Mockup.png";
 import { useState } from "react";
 
 
