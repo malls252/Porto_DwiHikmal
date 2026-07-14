@@ -1,23 +1,6 @@
-# SPA fallback: arahkan semua route client-side ke index.html
-# Catatan: jangan ganggu asset static (file dengan ekstensi).
-[[redirects]]
-  from = "/*"
-  to = "/index.html"
-  status = 200
-  force = true
+# Netlify configuration for TanStack Start (SSR/edge) apps.
+# TanStack Start doesn't produce a static /index.html in dist/client.
+# DO NOT add SPA redirects to /index.html.
 
-# Netlify redirect yang lebih spesifik untuk path SPA (hindari bentrok dengan query/asset)
-[[redirects]]
-  from = "/*/"
-  to = "/index.html"
-  status = 200
-  force = true
 
-# Handle route yang mengandung query/hash (Netlify match biasanya hanya path)
-# Rule ini tetap mengarahkan ke index.html untuk path yang tidak ditemukan.
-[[redirects]]
-  from = "/:splat"
-  to = "/index.html"
-  status = 200
-  force = true
 
